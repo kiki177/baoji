@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>新能源商用车入驻宝鸡市场</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <style>
+    body { margin: 0; font-family: 'Microsoft YaHei', sans-serif; background: #f5f7fa; }
+    .swiper-slide {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      height: 100vh;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    h1, h2 { color: #004aad; }
+    p { max-width: 800px; line-height: 1.8; font-size: 18px; color: #333; }
+    .highlight { color: #d20000; font-weight: bold; }
+    img { max-width: 80%; border-radius: 10px; margin-top: 20px; }
+    .swiper-pagination-bullet-active { background: #004aad; }
+  </style>
+</head>
+<body>
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <h1>新能源商用车全面入驻宝鸡市场</h1>
+        <h2>小桔租买车 · 辉煌网约车</h2>
+      </div>
+
+      <div class="swiper-slide">
+        <h2>公司简介</h2>
+        <p>西安辉煌汽车租赁有限公司宝鸡分公司 成立于 2017 年 12 月，深耕宝鸡汽车市场二十年，信誉良好，服务专业。</p>
+        <p>主营业务包括：网约车/出租车租售、新能源商用车租售、二手新能源车销售。</p>
+      </div>
+
+      <div class="swiper-slide">
+        <h2>品牌入驻</h2>
+        <p>东风新能源、瑞驰新能源、福田新能源正式合作入驻。</p>
+        <p class="highlight">支持厂家金融分期（可0首付），一台也是批发价，品种齐全、价格实惠！</p>
+      </div>
+
+      <div class="swiper-slide">
+        <h2>热卖车型：瑞驰EC75 电动厢货</h2>
+        <p>智驾超充版 · 宁德时代50.1kWh 电池</p>
+        <p>293km续航 · 峰值70kW · 车长5.13米</p>
+        <p>双侧滑门+对开尾门，适合城市配送</p>
+        <img src="https://via.placeholder.com/600x350?text=%E7%91%9E%E9%A9%B0EC75%E5%AE%9E%E6%8B%8D" alt="瑞驰EC75" />
+      </div>
+
+      <div class="swiper-slide">
+        <h2>其他车型推荐</h2>
+        <p>东风新能源封闭货车、福田新能源栏板车等多种车型可选，满足搬家拉货、城市物流等多种场景。</p>
+        <img src="https://via.placeholder.com/600x350?text=%E7%94%B5%E5%8A%A8%E8%BD%A6%E6%AC%BE%E5%AE%9E%E6%8B%8D" alt="其他车型" />
+      </div>
+
+      <div class="swiper-slide">
+        <h2>服务优势</h2>
+        <p>整车销售、金融分期、灵活租赁、二手置换</p>
+        <p>支持企业车队备案、网约车合规化运营</p>
+      </div>
+
+      <div class="swiper-slide">
+        <h2>门店信息</h2>
+        <p>地址：宝鸡市陈仓大道陕汽西四路十字东南角</p>
+        <p>电话：0917-3622599 / 18729178727</p>
+        <p>门头：小桔租买车（辉煌网约车）</p>
+      </div>
+
+      <div class="swiper-slide">
+        <h2>宣传语推荐</h2>
+        <p>★ 新能源物流车，一台也是批发价！</p>
+        <p>★ 合规网约车、绿牌货运车，来店即提！</p>
+        <p>★ 不投资 就拥有，灵活租赁超安心！</p>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      direction: 'vertical',
+      pagination: { el: '.swiper-pagination', clickable: true },
+      mousewheel: true
+    });
+  </script>
+</body>
+</html>
